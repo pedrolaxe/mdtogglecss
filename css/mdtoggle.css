@@ -1,7 +1,7 @@
 /**
 * mdtoggle.css
 * Author: Pedro Laxe
-* Version: 1.0
+* Version: 1.0.1
 * License: GPLv2
 **/
 label.input-toggle {
@@ -53,6 +53,9 @@ label.input-toggle > span:after {
 label.input-toggle > input:checked + span:after {
   left: calc(100% - 18px);
   background-color: #1D8B90;
+}
+label.input-toggle > input:active + span::after{
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 10px rgba(124, 188, 191, 0.5);
 }
 
 label.input-toggle > span:active:after {

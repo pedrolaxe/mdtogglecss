@@ -3,7 +3,7 @@
 Use the Google Material Design toggle in pure CSS
 
 ### Demo
-http://
+http://pedrolaxe.github.io/mdtogglecss/
 
 ### Version
 1.0

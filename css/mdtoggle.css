@@ -79,8 +79,6 @@ label.input-toggle > input {
   height: 0;
 }
 
-body { background: #fefefe; }
-
 * {
   -webkit-user-select: none;
   -moz-user-select: none;

@@ -1,7 +1,7 @@
 /**
 * mdtoggle.css
 * Author: Pedro Laxe
-* Version: 1.0.1
+* Version: 1.0.2
 * License: GPLv2
 **/
 
@@ -85,6 +85,25 @@ label.input-toggle > input {
   width: 0;
   height: 0;
 }
+/* Large */
+label.input-toggle.large > span{
+  width: 60px;
+  height: 20px;
+  background-size: 120px 25px;
+}
+label.input-toggle.large > span:after{
+  width: 30px;
+  height: 30px;
+}
+label.input-toggle.large > input:checked + span:after {
+  left: calc(100% - 30px);
+  background-color: #1D8B90;
+}
+label.input-toggle.large > input:disabled + span { cursor: default; }
+
+label.input-toggle.large > input:disabled + span { background: #D5D5D5; }
+
+label.input-toggle.large > input:disabled + span:after { background: #BDBDBD; }
 
 * {
   -webkit-user-select: none;

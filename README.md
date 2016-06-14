@@ -2,6 +2,8 @@
 
 Use the Google Material Design toggle in pure CSS
 
+![MD Toggles](http://i.imgur.com/YSu9d9U.jpg)
+
 ### Demo
 http://pedrolaxe.github.io/mdtogglecss/
 
